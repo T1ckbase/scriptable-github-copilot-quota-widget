@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "scriptable-copilot-quota",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "tsc --noEmit && bunx --bun biome check",
+    "format": "bunx --bun biome format --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "latest",
+    "@types/bun": "latest",
+    "@types/scriptable-ios": "^1.7.8",
+    "typescript": "^5"
+  }
+}
