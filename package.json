@@ -9,9 +9,9 @@
     "format": "bunx --bun biome format --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "latest",
+    "@biomejs/biome": "^2.4.4",
     "@types/bun": "latest",
     "@types/scriptable-ios": "^1.7.8",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   }
 }
